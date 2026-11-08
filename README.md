@@ -1,66 +1,57 @@
-# Personal Task Manager
-![Static Badge](https://img.shields.io/badge/python-pink?logo=python&logoColor=black)
+# Personal Task Mananger 
+![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
 
-A simple task manager built with Python.
+A simple  task manager built with python
 
 ## Features
-- Add multiple tasks
-- Save tasks
-- Load saved tasks
-- Admin mode
+- Add multiple tasks 
+- Saves tasks 
+- loads saved tasks
+- admin mode
 
 ## Requirements
-- Python
-- python-dotenv
-
-## Project Structure
+- `python 3`
+- `python-dotenv`
+## Project structure
 ```text
-personal_task_manager/
+personal_task_manager_ostad/
+│   .env.example
+│   .gitignore
+│   main.py
+│   README.md
+│   requirments.txt
+│   tasks.py
 │
-├── .env.example
-├── .gitignore
-├── main.py
-├── README.md
-├── requirements.txt
-├── tasks.py
+├───gifs/
+│       task_demo.gif
 │
-└── images/
-    ├── Animation.gif
-    └── screenshot.png
+├───image/
+│       pic1.png
 
 ```
 ## Installation
-
-Install the required packages:
-
+install the required packages:
 ```bash
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
-
-## Environment setup
-
-Use `.env.example` as a template.
-
-Add your admin password:
-
+## Environment Setup
+create a `.env` file in the project folde
+Use `.env.example` as a templet
+Add your admin password 
 ```env
-admin_pass=your_password_here
+admin_pass = your_passport_here
 ```
+replaace `your_passport_here` with your own admin password.
+## run the program 
+run the main file:
 
-Replace `your_password_here` with your own admin password.
-
-## Run the program
-
-Run the main file:
-
-```bash
+```bash 
 python main.py
 ```
 
-## Screenshot
+## screen shot
+![personal_task_manager_screenshot](image\pic1.png)
 
-![Personal Task Manager Screenshot](images/screenshot.png)
 
 ## Demo
-
-![Personal Task Manager Screenshot](images/screenshot.png)
+![personal_task_manager_demo](gifs\demo.gif)
